@@ -6,8 +6,6 @@ A theoretical study of online bilateral trade through the lens of regret minimiz
 
 The goal is to compete with the best **distribution over price pairs** that remains budget balanced **in expectation** while maximizing expected gain from trade. This stronger benchmark captures the additional flexibility enabled by global budget balance and motivates the algorithmic design of the project.
 
-At each round, a platform intermediates between a seller and a buyer with unknown private valuations. The learner posts prices and aims to maximize cumulative gain from trade (GFT) while ensuring global budget balance (GBB).
-
 ## Problem Setting
 
 We consider a repeated interaction over a horizon $T$.
