@@ -2,7 +2,7 @@
 
 ### A stronger benchmark
 
-This project studies online bilateral trade through the lens of regret minimization, with a focus on a **strong distributional benchmark** under **global budget balance**.
+A theoretical study of online bilateral trade through the lens of regret minimization, aiming to provide an algorithm to compete against a **stronger distributional benchmark** under **global budget balance** in **stochastic environments**.
 
 The goal is to compete with the best **distribution over price pairs** that remains budget balanced **in expectation** while maximizing expected gain from trade. This stronger benchmark captures the additional flexibility enabled by global budget balance and motivates the algorithmic design of the project.
 
