@@ -26,12 +26,12 @@ The learner posts a pair of prices $(p_t, q_t)$:
 - $p_t$ to the seller
 - $q_t$ to the buyer
 
-### Trade condition
+#### Trade condition
 
 A trade occurs if both agents accept:
 $\mathbb{1}\{s_t \le p_t\} \cdot \mathbb{1}\{q_t \le b_t\}$
 
-### Objective function
+#### Objective function
 
 The learner aims to maximize cumulative gain from trade while enforcing global budget balance over the horizon.
 
@@ -39,18 +39,18 @@ The learner aims to maximize cumulative gain from trade while enforcing global b
 
 The performance is evaluated via **pseudo-regret** against a strong benchmark.
 
-### Definition
+#### Definition
 
 The benchmark is the best distribution over price pairs $(p, q) \in [0,1]^2$ that is **globally budget balanced in expectation** and maximizes expected gain from trade:
 $\mathbb{E}_{(p,q) \sim \gamma}[\mathrm{GFT}(p,q)]$.
 
-### Interpretation
+#### Interpretation
 
 - The learner competes against a **distributional policy**, not just a single fixed price.
 - Prices $(p,q)$ may **violate budget balance at individual rounds**, as long as they satisfy it **in expectation**.
 - This benchmark captures the possibility of occasionally incurring losses and compensating them with sufficiently profitable trades.
 
-### Why this benchmark?
+#### Why this benchmark?
 
 - It **strictly generalizes** the classical *best fixed price* benchmark, since any fixed price can be viewed as a degenerate distribution.
 - It is **strictly stronger**, because randomization enables better trade-offs between profit and gain from trade.
