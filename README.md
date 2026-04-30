@@ -2,7 +2,9 @@
 
 </br>
 
-![icml image](./icml.png)
+<div align="center">
+  <img src="icml.png" alt="Boh"/>
+</div>
 
 </br>
 
