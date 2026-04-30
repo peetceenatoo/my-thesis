@@ -6,7 +6,7 @@
 
 </br>
 
-### A stronger benchmark
+## Introduction
 
 A theoretical study of online bilateral trade through the lens of regret minimization, aiming to provide an algorithm to compete against a **stronger distributional benchmark** under global budget balance** in stochastic environments.
 
