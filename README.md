@@ -2,7 +2,7 @@
 
 </br>
 
-![icml image](./icml.png)
+![icml image](./icml.jpg)
 
 </br>
 
