@@ -1,4 +1,10 @@
-## Bilateral Trading under Budget Pressure
+# A stronger Benchmark for Bilateral Trade in Stochastic Environments
+
+</br>
+
+![icml image](./icml.png)
+
+</br>
 
 ### A stronger benchmark
 
