@@ -50,7 +50,7 @@ $\mathbb{E}_{(p,q) \sim \gamma}[\mathrm{GFT}(p,q)]$.
 - Prices $(p,q)$ may **violate budget balance at individual rounds**, as long as they satisfy it **in expectation**.
 - This benchmark captures the possibility of occasionally incurring losses and compensating them with sufficiently profitable trades.
 
-### Why this Benchmark?
+### Why this benchmark?
 
 - It **strictly generalizes** the classical *best fixed price* benchmark, since any fixed price can be viewed as a degenerate distribution.
 - It is **strictly stronger**, because randomization enables better trade-offs between profit and gain from trade.
