@@ -26,12 +26,12 @@ The learner posts a pair of prices $(p_t, q_t)$:
 - $p_t$ to the seller
 - $q_t$ to the buyer
 
-### Trade Condition
+### Trade condition
 
 A trade occurs if both agents accept:
 $\mathbb{1}\{s_t \le p_t\} \cdot \mathbb{1}\{q_t \le b_t\}$
 
-### Objective
+### Objective function
 
 The learner aims to maximize cumulative gain from trade while enforcing global budget balance over the horizon.
 
