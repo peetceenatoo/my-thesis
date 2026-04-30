@@ -39,7 +39,7 @@ The learner aims to maximize cumulative gain from trade while enforcing global b
 
 The performance is evaluated via **pseudo-regret** against a strong benchmark.
 
-### Benchmark Definition
+### Definition
 
 The benchmark is the best distribution over price pairs $(p, q) \in [0,1]^2$ that is **globally budget balanced in expectation** and maximizes expected gain from trade:
 $\mathbb{E}_{(p,q) \sim \gamma}[\mathrm{GFT}(p,q)]$.
