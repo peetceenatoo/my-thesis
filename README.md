@@ -53,3 +53,7 @@ $\mathbb{E}_{(p,q) \sim \gamma}[\mathrm{GFT}(p,q)]$.
 - It **strictly generalizes** the classical *best fixed price* benchmark, since any fixed price can be viewed as a degenerate distribution.
 - It is **strictly stronger**, because randomization enables better trade-offs between profit and gain from trade.
 - It naturally reflects the flexibility introduced by **global budget balance**.
+
+## Acknowledgments
+
+Our work was published at top-tier conference ICML 2026, held in Seoul, South Korea.
